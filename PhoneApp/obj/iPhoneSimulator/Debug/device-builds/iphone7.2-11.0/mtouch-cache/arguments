@@ -29,6 +29,8 @@
 	-r \
 	/Users/desarrollo/Downloads/Lab05/SALLab05.dll \
 	-r \
+	/Users/desarrollo/Downloads/Lab06/SALLab06.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -318,6 +320,8 @@
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PhoneApp/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/desarrollo/Downloads/Lab05/SALLab05.dll \
+	-r \
+	/Users/desarrollo/Downloads/Lab06/SALLab06.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PhoneApp/bin/iPhoneSimulator/Debug/PhoneApp.exe \

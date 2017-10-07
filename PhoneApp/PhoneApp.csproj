@@ -90,6 +90,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="SALLab06">
+      <HintPath>..\..\..\..\Downloads\Lab06\SALLab06.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -125,6 +128,14 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="PhoneTranslator.cs" />
+    <Compile Include="CallHistoryController.cs" />
+    <Compile Include="CallHistoryController.designer.cs">
+      <DependentUpon>CallHistoryController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateViewController.cs" />
+    <Compile Include="ValidateViewController.designer.cs">
+      <DependentUpon>ValidateViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

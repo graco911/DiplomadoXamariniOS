@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{32A08B2F-923F-4718-8E86-4004C92FCE77}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ValidateController.cs">
+    <Files>
+      <File FileName="ValidateController.cs" Line="13" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PatronMVC PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.22A668BA-913F-4B3C-BF36-9F6941244E5A">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.PatronMVC>
+</Properties>

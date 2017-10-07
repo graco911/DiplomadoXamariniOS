@@ -1,11 +1,14 @@
 ﻿using System;
-
+using System.Collections.Generic;
 using UIKit;
 
 namespace PhoneApp
 {
     public partial class ViewController : UIViewController
     {
+        string TranslatedNumber = string.Empty;
+        List<string> PhoneNumbers = new List<string>();
+
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -15,7 +18,7 @@ namespace PhoneApp
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
-            var TranslatedNumber = string.Empty;
+            //var TranslatedNumber = string.Empty;
 
             TranslateButton.TouchUpInside += (object sender, EventArgs e) => 
             {
@@ -34,6 +37,7 @@ namespace PhoneApp
 
             CallButton.TouchUpInside += (object sender, EventArgs e) => 
             {
+                PhoneNumbers.Add(TranslatedNumber);
                 var URL = new Foundation.NSUrl($"tel:{TranslatedNumber}");
 
                 if (!UIApplication.SharedApplication.OpenUrl(URL))
@@ -47,11 +51,10 @@ namespace PhoneApp
                 }
             };
         }
-
-        partial void VerifyButton_TouchUpInside(UIButton sender)
+        /*partial void VerifyButton_TouchUpInside(UIButton sender)
         {
             Validate();
-        }
+        }*/
 
         async void Validate()
         {
@@ -69,6 +72,16 @@ namespace PhoneApp
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
+
+            if (segue.DestinationViewController is CallHistoryController Controller)
+            {
+                Controller.PhoneNumbers = PhoneNumbers;
+            }
         }
     }
 }

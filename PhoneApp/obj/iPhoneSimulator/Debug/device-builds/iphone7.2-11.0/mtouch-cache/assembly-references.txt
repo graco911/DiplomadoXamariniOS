@@ -40,3 +40,4 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll
+/Users/desarrollo/Downloads/Lab06/SALLab06.dll

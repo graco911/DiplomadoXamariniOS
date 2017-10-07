@@ -19,6 +19,10 @@ namespace PhoneApp
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton CallHistoryButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField PhoneNumberText { get; set; }
 
         [Outlet]
@@ -29,15 +33,16 @@ namespace PhoneApp
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton VerifyButton { get; set; }
 
-        [Action ("VerifyButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void VerifyButton_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
             if (CallButton != null) {
                 CallButton.Dispose ();
                 CallButton = null;
+            }
+
+            if (CallHistoryButton != null) {
+                CallHistoryButton.Dispose ();
+                CallHistoryButton = null;
             }
 
             if (PhoneNumberText != null) {

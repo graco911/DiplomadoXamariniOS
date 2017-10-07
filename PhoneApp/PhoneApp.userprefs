@@ -1,16 +1,9 @@
 ﻿<Properties StartupConfiguration="{ADE13113-A8CA-442C-8A6F-B3588382EBE9}|Default">
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="PhoneApp" expanded="True" selected="True">
-            <Node name="PhoneApp" expanded="True">
-              <Node name="References" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main.storyboard">
+    <Files>
+      <File FileName="Main.storyboard" />
+      <File FileName="ValidateViewController.cs" Line="32" Column="54" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.PhoneApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.22A668BA-913F-4B3C-BF36-9F6941244E5A">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />

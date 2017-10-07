@@ -1,0 +1,9 @@
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.pdb
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Newtonsoft.Json.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/NorthWind.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/SALLab07.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Newtonsoft.Json.xml
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/obj/Debug/Modelo.csproj.CoreCompileInputs.cache
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/obj/Debug/Modelo.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/obj/Debug/Modelo.pdb
