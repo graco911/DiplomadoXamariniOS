@@ -1,16 +1,11 @@
 ﻿<Properties StartupConfiguration="{ADE13113-A8CA-442C-8A6F-B3588382EBE9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
-    <Files>
-      <File FileName="Main.storyboard" />
-      <File FileName="ViewController.cs" Line="59" Column="19" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhoneApp" expanded="True">
+          <Node name="PhoneApp" expanded="True" selected="True">
             <Node name="PhoneApp" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="ViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,9 +17,7 @@
   </MonoDevelop.Ide.ItemProperties.PhoneApp>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PhoneApp/ViewController.cs" relfile="ViewController.cs" line="59" column="100" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

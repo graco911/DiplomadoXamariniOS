@@ -1,0 +1,9 @@
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/bin/iPhoneSimulator/Debug/ActividadOpcional.exe
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/bin/iPhoneSimulator/Debug/ActividadOpcional.pdb
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/actool/_PartialAppManifest.items
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/actool/_BundleResourceWithLogicalName.items
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/optimized/
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/ActividadOpcional.csproj.CoreCompileInputs.cache
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/ActividadOpcional.exe
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/ActividadOpcional/obj/iPhoneSimulator/Debug/ActividadOpcional.pdb
