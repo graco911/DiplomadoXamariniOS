@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{ADE13113-A8CA-442C-8A6F-B3588382EBE9}|Default">
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="AppDelegate.cs" Line="1" Column="1" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhoneApp" selected="True" />
+          <Node name="PhoneApp" expanded="True">
+            <Node name="PhoneApp" expanded="True">
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.PhoneApp>
+  <MonoDevelop.Ide.ItemProperties.PhoneApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DF2D2220-8D5E-4162-85F6-1D8B81359FA7">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.PhoneApp>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

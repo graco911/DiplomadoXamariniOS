@@ -85,6 +85,16 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40x40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58x58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\87x87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120x120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80x80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180x180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29x29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76x76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152x152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167x167.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -104,6 +114,7 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="PhoneTranslator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
