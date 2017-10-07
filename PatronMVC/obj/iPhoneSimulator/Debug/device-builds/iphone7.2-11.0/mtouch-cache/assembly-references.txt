@@ -5,11 +5,11 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Mono.Security.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/System.Xml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/System.Core.dll
-/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.dll
+/Users/desarrollo/Downloads/Lab07/NorthWind.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/System.ComponentModel.Composition.dll
-/Users/desarrollo/Downloads/Lab07/NorthWind.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
+/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/System.Net.Http.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
@@ -41,3 +41,4 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll
+/Users/desarrollo/Downloads/Lab07/SALLab07.dll
