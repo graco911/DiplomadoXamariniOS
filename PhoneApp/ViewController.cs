@@ -48,6 +48,23 @@ namespace PhoneApp
             };
         }
 
+        partial void VerifyButton_TouchUpInside(UIButton sender)
+        {
+            Validate();
+        }
+
+        async void Validate()
+        {
+            var Client = new SALLab05.ServiceClient();
+            var Result = await Client.ValidateAsync("correo", "contrasena", this);
+
+            var Alert = UIAlertController.Create("Resultado", $"{Result.Status}\n{Result.FullName}\n{Result.Token}",
+                                                 UIAlertControllerStyle.Alert);
+            Alert.AddAction(UIAlertAction.Create("Ok",
+                                                 UIAlertActionStyle.Default, null));
+            PresentViewController(Alert, true, null);
+        }
+
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();

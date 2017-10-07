@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
@@ -45,6 +45,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="600" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="102" y="284" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Verificar actividad">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VerifyButton_TouchUpInside:" destination="BYZ-38-t0r" id="601" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
@@ -52,6 +62,7 @@
                                 <exclude reference="394"/>
                                 <exclude reference="395"/>
                                 <exclude reference="396"/>
+                                <exclude reference="600"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -60,6 +71,7 @@
                                 <include reference="394"/>
                                 <include reference="395"/>
                                 <include reference="396"/>
+                                <include reference="600"/>
                             </mask>
                         </variation>
                     </view>
@@ -67,6 +79,7 @@
                         <outlet property="PhoneNumberText" destination="394" id="name-outlet-394"/>
                         <outlet property="TranslateButton" destination="395" id="name-outlet-395"/>
                         <outlet property="CallButton" destination="396" id="name-outlet-396"/>
+                        <outlet property="VerifyButton" destination="600" id="name-outlet-600"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,23 +1,30 @@
 ﻿<Properties StartupConfiguration="{ADE13113-A8CA-442C-8A6F-B3588382EBE9}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
+    <Files>
+      <File FileName="Main.storyboard" />
+      <File FileName="ViewController.cs" Line="59" Column="19" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PhoneApp" expanded="True">
             <Node name="PhoneApp" expanded="True">
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="References" expanded="True" />
+              <Node name="ViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.PhoneApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DF2D2220-8D5E-4162-85F6-1D8B81359FA7">
+  <MonoDevelop.Ide.ItemProperties.PhoneApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.22A668BA-913F-4B3C-BF36-9F6941244E5A">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.PhoneApp>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PhoneApp/ViewController.cs" relfile="ViewController.cs" line="59" column="100" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
