@@ -81,9 +81,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="NorthWind">
-      <HintPath>..\..\..\..\Downloads\Lab07\NorthWind.dll</HintPath>
-    </Reference>
     <Reference Include="SALLab07">
       <HintPath>..\..\..\..\Downloads\Lab07\SALLab07.dll</HintPath>
     </Reference>
@@ -92,6 +89,9 @@
     <Reference Include="System.IO.Compression" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthWind">
+      <HintPath>..\..\..\..\Downloads\Lab07\NorthWind.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -122,12 +122,7 @@
       <DependentUpon>ValidateController.cs</DependentUpon>
     </Compile>
     <Compile Include="Status.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Modelo\Modelo.csproj">
-      <Project>{0D46135F-93CE-4097-8A07-533CEB2A0024}</Project>
-      <Name>Modelo</Name>
-    </ProjectReference>
+    <Compile Include="Modelo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

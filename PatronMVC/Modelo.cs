@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Threading.Tasks;
 using NorthWind;
 
-namespace Modelo
+namespace PatronMVC
 {
-    public class Product : IProduct
+    public class Modelo : IProduct
     {
+        public Modelo()
+        {
+        }
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public int? SupplierID { get; set; }

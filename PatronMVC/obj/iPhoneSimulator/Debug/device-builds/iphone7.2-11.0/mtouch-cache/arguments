@@ -1,6 +1,6 @@
-# Version: 11.0.0.0 (xcode9: 152b654a)
+# Version: 11.2.0.11 (d15-4-xi: 2f8bbec0)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/lib/mtouch/mtouch.exe \
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/mtouch-cache \
 	--sim \
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/PatronMVC.app \
@@ -22,8 +22,6 @@
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
-	-r \
-	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -319,13 +317,11 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/Modelo/bin/Debug/Modelo.dll \
-	-r \
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/desarrollo/Downloads/Lab07/NorthWind.dll \
 	-r \
 	/Users/desarrollo/Downloads/Lab07/SALLab07.dll \
 	--target-framework \
-	"Xamarin.iOS,v1.0" \
+	'Xamarin.iOS,v1.0' \
 	/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/PatronMVC.exe \

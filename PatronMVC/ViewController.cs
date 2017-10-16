@@ -1,25 +1,28 @@
 ﻿using System;
-using System.Net.Http;
 using System.Net.Http.Headers;
-using Newtonsoft.Json;
 using UIKit;
-using NorthWind;
-using Modelo;
 using System.Threading.Tasks;
+using ModelIO;
+using NorthWind;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace PatronMVC
 {
-    public partial class ViewController : UIViewController, INorthWindModel
+    public partial class ViewController : UIViewController, INorthWindModel, IChangeStatusEventArgs
     {
-        NorthWindModel nw = new NorthWindModel();
-        Product Product = new Product();
+        Modelo modelo = new Modelo();
+
+        public StatusOptions Status { get; set; }
 
         public event ChangeStatusEventHandler ChangeStatus;
 
-        protected ViewController(IntPtr handle) : base(handle)
+        protected ViewController(
+        IntPtr handle) : base(handle)
         {
-            // Note: this .ctor should not contain any initialization logic.
         }
+
+        public ViewController() { }
 
         public override void ViewDidLoad()
         {
@@ -34,69 +37,44 @@ namespace PatronMVC
 
         private async Task SearchProductAsync()
         {
-            Product = (Modelo.Product)await GetProductByIDAsync(Convert.ToInt32(IDInput.Text));
-            NameLabel.Text = Product.ProductName;
-            PriceLabel.Text = Product.UnitPrice.ToString();
-            ExistenceLabel.Text = Product.UnitsInStock.ToString();
-            CategoryLabel.Text = Product.CategoryID.ToString();
-        }
+            modelo = (PatronMVC.Modelo)await GetProductByIDAsync(Convert.ToInt32(IDInput.Text));
+            NameLabel.Text = modelo.ProductName;
+            PriceLabel.Text = modelo.UnitPrice.ToString();
+            ExistenceLabel.Text = modelo.UnitsInStock.ToString();
+            CategoryLabel.Text = modelo.CategoryID.ToString();
 
-        public override void DidReceiveMemoryWarning()
-        {
-            base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
         }
 
         public async Task<IProduct> GetProductByIDAsync(int ID)
         {
-            Product producto = new Product();
             using (var Client = new System.Net.Http.HttpClient())
             {
                 Client.BaseAddress =
                           new Uri("https://ticapacitacion.com/webapi/northwind/");
                 Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-				ChangeStatus += (object sender, IChangeStatusEventArgs e) =>
-				{
-                    e.Status = StatusOptions.CallingWebAPI;
-				};
-
                 HttpResponseMessage Response = await Client.GetAsync($"product/{ID}");
 
-                ChangeStatus += (object sender, IChangeStatusEventArgs e) => 
-                {
-                    e.Status = StatusOptions.VerifyingResult;
-                };
+                StatusLabel.Text = ChangeStatus.ToString();
+      
 
                 if (Response.IsSuccessStatusCode)
                 {
                     var JSONProduct =
                         await Response.Content.ReadAsStringAsync();
-                    producto = JsonConvert.DeserializeObject<Product>(JSONProduct);
+                    modelo = JsonConvert.DeserializeObject<Modelo>(JSONProduct);
 
-                    if (Product != null)
+                    if (modelo != null)
                     {
-						ChangeStatus += (object sender, IChangeStatusEventArgs e) =>
-						{
-                            
-						};
-                    }else
+                        
+                    }
+                    else
                     {
-						ChangeStatus += (object sender, IChangeStatusEventArgs e) =>
-						{
-                            
-						};
+                        
                     }
                 }
-                else
-                {
-					ChangeStatus += (object sender, IChangeStatusEventArgs e) =>
-					{
-
-					};
-                }
             }
-            return producto;
+            return modelo;
         }
     }
 }

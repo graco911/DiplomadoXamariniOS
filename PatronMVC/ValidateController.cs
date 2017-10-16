@@ -1,7 +1,6 @@
 using Foundation;
 using System;
 using UIKit;
-using Modelo;
 using System.Threading.Tasks;
 using NorthWind;
 
@@ -23,8 +22,8 @@ namespace PatronMVC
         private async Task ValidateAsync()
         {
             var Client = new SALLab07.ServiceClient();
-            NorthWindModel p = new NorthWindModel();
-            var Result = await Client.ValidateAsync(EmailInput.Text, PassInput.Text, p);
+            var view = new Modelo();
+            var Result = await Client.ValidateAsync(EmailInput.Text, PassInput.Text, (NorthWind.INorthWindModel)view);
 
             var Alert = UIAlertController.Create("Resultado",
                                                  $"{Result.Status}\n{Result.FullName}\n{Result.Token}",

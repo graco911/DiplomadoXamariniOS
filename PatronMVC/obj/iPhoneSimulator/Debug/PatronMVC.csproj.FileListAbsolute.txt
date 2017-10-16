@@ -1,10 +1,8 @@
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/PatronMVC.exe
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/PatronMVC.pdb
-/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/Modelo.dll
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/NorthWind.dll
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/SALLab07.dll
-/Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/Modelo.pdb
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/ibtool/_BundleResourceWithLogicalName.items
 /Users/desarrollo/Documents/GitHub/DiplomadoXamariniOS/PatronMVC/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-11.0/actool/_PartialAppManifest.items

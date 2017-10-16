@@ -1,8 +1,17 @@
 ﻿<Properties StartupConfiguration="{32A08B2F-923F-4718-8E86-4004C92FCE77}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
-    <Files>
-      <File FileName="ViewController.cs" Line="68" Column="62" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PatronMVC" expanded="True">
+            <Node name="PatronMVC" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ValidateController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
